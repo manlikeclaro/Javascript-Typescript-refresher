@@ -1,0 +1,5 @@
+# Ignore Rider files
+.idea/
+
+# Ignore Visual Studio files
+.vscode/
