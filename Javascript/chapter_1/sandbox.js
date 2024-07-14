@@ -24,11 +24,11 @@ document.querySelector('#button3').onclick = () => {
         isClicked ? getName("Maria") : thirdElement;
 };
 
-function buttonClicked() {
+buttonClicked = () => {
     document.querySelector('#firstElement').innerHTML = isClicked ? 'Inner HTML updated when clicked!' : `Reverted to - ${firstElement}`;
 }
 
-function logNinjas() {
+logNinjas = () => {
     let loggedNinjas = '';
     ninjas.forEach(item => {
         loggedNinjas += `<div><p>${item}</p></div>`;
@@ -37,7 +37,7 @@ function logNinjas() {
     return loggedNinjas;
 }
 
-function printNinjas() {
+printNinjas = () => {
     document.querySelector('#secondElement').innerHTML = isClicked ? logNinjas() : `Reverted to ${secondElement}`;
 }
 
