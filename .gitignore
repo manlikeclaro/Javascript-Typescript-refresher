@@ -1,5 +1,20 @@
-# Ignore Rider files
+# Ignore Webstorm files
 .idea/
 
 # Ignore Visual Studio files
 .vscode/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output directories
+dist/
+build/
+out/
+
+# Ignore TypeScript build artifacts
+*.tsbuildinfo
+
+# Ignore environment variables files
+.env
+.env.*
